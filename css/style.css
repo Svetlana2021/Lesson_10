@@ -1,0 +1,142 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	
+	max-width: 100%;
+	box-sizing: border-box;
+   overflow: hidden;
+    font-size: 0px;
+}
+/* ------------------------------ */
+.nemo {background:#29C3BE url('../img/block__nemo/decor/Blob\ 2.png') 93% 0 no-repeat;
+}
+.nemo__blok {
+	margin: 150px 0px 100px 0px;
+} 
+.content-nemo {
+	max-width: 1440px; 
+	font-size: 0px; 
+	padding: 105px 0px 0px 193px;
+}
+.content-nemo__our {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0px 0px 32px 0px;
+}
+.content-nemo__our::before{
+	vertical-align: top;
+	content: url("../img/block__nemo/icon/nemo.svg");
+	max-width: 15px;
+	max-height: 15px;
+	} 
+.content-nemo__nemo-enim {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin: 0px 0px 76px 0px; 
+	max-width: 411px;
+}
+.img-nemo {
+	
+	max-width: 498px;
+	max-height: 315px;
+}
+.img-nemo__dog {
+	margin: -409px 0px 0px 670px;
+	border-radius: 40px;
+}
+.cards-nemo__item {
+	margin: 0px 23px 50px 0px;
+	display: inline-block;
+	width: 237px;
+   }
+.cards-nemo__item:first-child{
+	margin: 0px 23px 50px 193px;
+}
+.cards-nemo__img {
+	display: inline-block;
+   width: 76px;
+   vertical-align: top;
+   margin: 0px 11px 0px 0px;
+}
+.cards-nemo__content {
+	display: inline-block;
+   vertical-align: top;
+}
+.cards-nemo__title {
+	font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+	color: #ffffff;
+}
+.cards-nemo__subtitle {
+	font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5d62b5;
+} 
+
+
+
+
+
+
+
+
+
+
